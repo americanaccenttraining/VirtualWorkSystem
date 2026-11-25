@@ -1,0 +1,8 @@
+{
+  "name": "VirtualWorkSystem",
+  "description": "Build a smarter global workforce with VirtualWorkSystem. Discover remote staffing, dedicated teams, business support, and outsourcing solutions for growing businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
