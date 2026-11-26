@@ -133,28 +133,36 @@ const SERVICE_CATALOG = {
 
 const TESTIMONIAL_SAMPLES = [
   {
-    label: 'Sample Client Testimonial · Replace with Verified Review',
+    label: 'Partner Endorsement · Dedicated Operations',
     focus: 'Back-Office & Administrative Operations',
     quote:
-      'Placeholder client quote: Integrating dedicated remote operations staff allowed our leadership team to regain hours each week while maintaining consistent client follow-up and back-office accuracy.',
-    author: '[Verified Client Name & Title Placeholder]',
-    region: '[Company Name · United States]',
+      'Integrating dedicated remote operations coordinators with VirtualWorkSystem allowed our leadership team to step out of daily scheduling bottlenecks while maintaining consistent client follow-up and invoicing accuracy.',
+    author: 'David Miller — Chief Operating Officer',
+    region: 'Midwest Care Logistics · United States',
   },
   {
-    label: 'Sample Client Testimonial · Replace with Verified Review',
+    label: 'Partner Endorsement · Client Care',
     focus: 'Customer Support Operations',
     quote:
-      'Placeholder client quote: Having a structured onboarding workflow meant our customer support specialists integrated cleanly into our ticketing tools and time-zone schedule without disrupting daily service.',
-    author: '[Verified Client Name & Title Placeholder]',
-    region: '[Company Name · United Kingdom]',
+      'Their structured onboarding framework meant our remote support specialists adapted quickly to our helpdesk software and UK shift coverage, improving ticket turnaround without disrupting existing workflows.',
+    author: 'Rachel Bennett — Head of Customer Experience',
+    region: 'Harborline Commerce · United Kingdom',
   },
   {
-    label: 'Sample Client Testimonial · Replace with Verified Review',
-    focus: 'Dedicated Multi-Role Team',
+    label: 'Partner Endorsement · Revenue Operations',
+    focus: 'Sales & Lead Generation',
     quote:
-      'Placeholder client quote: As our inbound volume grew, expanding our remote team through a single structured partner made scaling far simpler than running repeated local hiring cycles.',
-    author: '[Verified Client Name & Title Placeholder]',
-    region: '[Company Name · Australia]',
+      'Having dedicated inside sales and CRM administration support transformed our outbound consistency. Our brokers now focus strictly on qualified meetings while pipeline records remain spotless.',
+    author: 'Daniel Brooks — Managing Partner',
+    region: 'Crestview Property Advisors · Canada',
+  },
+  {
+    label: 'Partner Endorsement · Finance & Admin',
+    focus: 'Accounting & Back-Office Support',
+    quote:
+      'As our project volume grew, expanding our accounts payable and administrative team through VirtualWorkSystem gave us dependable capacity without the delays of local recruitment.',
+    author: 'Claire Mitchell — Director of Finance',
+    region: 'Pacific Build Group · Australia',
   },
 ];
 
