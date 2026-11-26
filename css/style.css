@@ -188,33 +188,26 @@ textarea {
 .brand-lockup {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   white-space: nowrap;
   flex-shrink: 0;
   transition: transform 0.18s ease;
 }
 
 .brand-lockup svg {
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   flex-shrink: 0;
-}
-
-@media (min-width: 360px) {
-  .brand-lockup svg {
-    width: 28px;
-    height: 28px;
-  }
 }
 
 @media (min-width: 400px) {
   .brand-lockup {
-    gap: 8px;
+    gap: 6px;
   }
 
   .brand-lockup svg {
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
   }
 }
 
@@ -223,6 +216,13 @@ textarea {
     gap: 10px;
   }
 
+  .brand-lockup svg {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (min-width: 640px) {
   .brand-lockup svg {
     width: 36px;
     height: 36px;
@@ -235,7 +235,7 @@ textarea {
 
 .brand-wordmark {
   font-family: var(--font-display);
-  font-size: clamp(13px, 3.8vw, 18px);
+  font-size: clamp(11.5px, 3.3vw, 18px);
   font-weight: 800;
   letter-spacing: -0.025em;
   color: var(--navy-deep);
@@ -323,24 +323,24 @@ textarea {
   }
 }
 
-.header-cta {
+.btn.header-cta {
   display: inline-flex;
-  min-height: 36px;
-  padding: 6px 10px;
-  font-size: 11.5px;
+  min-height: 34px;
+  padding: 5px 9px;
+  font-size: 11px;
   line-height: 1.1;
 }
 
 @media (min-width: 400px) {
-  .header-cta {
-    min-height: 38px;
-    padding: 8px 12px;
-    font-size: 12.5px;
+  .btn.header-cta {
+    min-height: 36px;
+    padding: 6px 12px;
+    font-size: 12px;
   }
 }
 
 @media (min-width: 640px) {
-  .header-cta {
+  .btn.header-cta {
     min-height: 44px;
     padding: 10px 20px;
     font-size: 14px;
@@ -349,8 +349,8 @@ textarea {
 
 .mobile-menu-btn {
   display: inline-flex;
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
