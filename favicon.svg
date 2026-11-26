@@ -1,7 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#102A43"/>
-  <path d="M17 20L27.5 44L34 29L40.5 44L47 20" stroke="#FFFFFF" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="17" cy="20" r="3.5" fill="#2589E8"/>
-  <circle cx="34" cy="29" r="3.2" fill="#2589E8"/>
-  <circle cx="47" cy="20" r="3.5" fill="#2589E8"/>
+  <defs>
+    <linearGradient id="vws-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1F33"/>
+      <stop offset="100%" stop-color="#1769AA"/>
+    </linearGradient>
+    <linearGradient id="vws-sky" x1="14" y1="16" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#vws-bg)"/>
+  <path d="M13 21L23.5 44L32 25.5" stroke="#FFFFFF" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27.5 25.5L36 44L46.5 21" stroke="url(#vws-sky)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 16.5C25.5 11.5 38.5 11.5 46 16.5" stroke="#38BDF8" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="50" cy="19" r="3.2" fill="#38BDF8"/>
 </svg>

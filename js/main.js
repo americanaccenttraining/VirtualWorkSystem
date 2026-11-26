@@ -113,6 +113,22 @@ const SERVICE_CATALOG = {
       'Recruitment Coordination',
     ],
   },
+  'staff-augmentation': {
+    code: '08',
+    title: 'Staff Augmentation',
+    summary:
+      'On-demand skilled professionals embedded directly into your internal teams to bridge capability gaps and accelerate delivery.',
+    note: 'Flexible augmentation configured around your sprint cycles, management tools, and capacity goals.',
+    roles: [
+      'Dedicated Offshore Specialists',
+      'Project-Based Team Scaling',
+      'Cross-Functional Support Staff',
+      'Seasonal Capacity Expansion',
+      'Technical & Operational Talent',
+      'Embedded Team Integration',
+      'Flexible Contract Staffing',
+    ],
+  },
 };
 
 const TESTIMONIAL_SAMPLES = [
